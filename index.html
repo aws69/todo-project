@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>TO DO</title>
-    <link rel="icone" 
-    href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5b%2FGoogle_Tasks_2021.svg%2F1200px-Google_Tasks_2021.svg.png&tbnid=GrGZx_FBfucN0M&vet=12ahUKEwjnvLLJ147_AhWEmScCHZ8MCIcQMygBegUIARDDAQ..i&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGoogle_Tasks_2021.svg&docid=Xx-I3F6n5CtsTM&w=1200&h=1139&q=tasks%20logo%20images&ved=2ahUKEwjnvLLJ147_AhWEmScCHZ8MCIcQMygBegUIARDDAQ" 
-    type="image/x-icon">
+    
 </head>
-<header>
-    <h1>TO DO</h1>
-    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5b%2FGoogle_Tasks_2021.svg%2F1200px-Google_Tasks_2021.svg.png&tbnid=GrGZx_FBfucN0M&vet=12ahUKEwjnvLLJ147_AhWEmScCHZ8MCIcQMygBegUIARDDAQ..i&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGoogle_Tasks_2021.svg&docid=Xx-I3F6n5CtsTM&w=1200&h=1139&q=tasks%20logo%20images&ved=2ahUKEwjnvLLJ147_AhWEmScCHZ8MCIcQMygBegUIARDDAQ">
-    <P>The best way to organize your life.</P>
-    <nav>
-        <a href="about.html">ABOUT</a> 
+<header>        
+    <img class="logo" src="https://images.freeimages.com/clg/istock/previews/2649/26490793-finish-the-task.jpg" alt="">
+    <nav>        
+        <a class="item" href="index.html">HOME</a>
+        <a class="item" href="about.html">ABOUT</a>
     </nav>
+
+   
 </header>
+
 <body>
+    <div>
     <h1>WHAT TO DO ?!</h1>
     <table>
         <tr>
@@ -27,31 +30,49 @@
         <tr>
             <td>workout</td>
             <td>
-                <input type="radio" id="st1" name="FINISHED">
-                <label for="st1">FINISHED</label><br>
-                <input type="radio" id="st2" name="UNFINISHED">
-                <label for="st2">UNFINISHED</label>
+                <label class="form__group">
+                    <input type="radio" name="radio" />
+                    FINISHED
+                </label>
+                <br>
+                <label class="form__group">
+                    <input type="radio" name="radio" />
+                    UNFINISHED
+                </label>
+                <br>
             </td>
         </tr>
         <tr>
             <td>BREAKFAST</td>
             <td>
-                <input type="radio" id="st3" name="FINISHED">
-                <label for="st3">FINISHED</label><br>
-                <input type="radio" id="st4" name="UNFINISHED">
-                <label for="st4">UNFINISHED</label> 
+                <label class="form__group">
+                    <input type="radio" name="radio" />
+                    FINISHED
+                </label>
+                <br>
+                 <label class="form__group">
+                    <input type="radio" name="radio" />
+                    UNFINISHED
+                </label>
+                <br>
             </td>
         </tr>
         <tr>
             <td>STUDY</td>
             <td>
-                <input type="radio" id="st5" name="FINISHED">
-                <label for="st5">FINISHED</label><br>
-                <input type="radio" id="st6" name="UNFINISHED">
-                <label for="st6">UNFINISHED</label>
+                <label class="form__group">
+                    <input type="radio" name="radio" />
+                    FINISHED
+                </label>
+                <br>
+                 <label class="form__group">
+                    <input type="radio" name="radio" />
+                    UNFINISHED
+                </label>
             </td>
         </tr>
     </table>
+    </div>
 </body>
 
 <footer>
