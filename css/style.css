@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+body{
+    display: flex;
+    flex-direction:column ;
+    width:auto;
+    gap: 50px;
+    margin: auto;
+
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    font-family: 'Jost', sans-serif;
+}
+header{
+    display: flex;
+    
+    align-items: center;
+    width: inherit;
+    height: 120px;
+}
+
+header img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    background-color: #523fce;
+    width:1500px;
+    height: 120px;
+
+}
+nav a{
+    font-size:x-large;
+    margin-left: 400px;
+    position:relative;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:double;
+}
+
+nav a:link {
+    color: red;
+}
+  
+nav a:visited {
+    color: rgb(253, 253, 253);
+}
+nav a:hover {
+    color: hotpink;
+}
+nav a:active {
+    color: rgb(0, 255, 8);
+}
+
+.tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    font-family:'Montserrat', sans-serif ;
+    font-size: xx-large;
+    background-image:radial-gradient( rgb(250, 249, 249), rgb(255, 0, 217));
+    background-size: cover;
+    justify-content: center;
+
+}
+
+th{
+    border: 2px black solid;
+    padding: 15px;
+    width:auto;
+    font-size: 50px;
+    text-align: center;
+    
+}
+table, th,td{
+    width:fit-content ;
+    table-layout: fixed;
+    justify-self: center;
+    margin: auto;
+    border: 3px solid;
+    text-align: center;
+}
+.form__group {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"]{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.65rem;
+    accent-color: green;
+}
+
+
+
+footer{
+    background-color:#412eba;
+    height: 55px;
+    text-align: center;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-self: auto;
+   
+}
+footer a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:double;
+       
+}
+
+footer a:link {
+    color: red;
+}
+  
+footer a:visited {
+    color: rgb(255, 255, 255);
+}
+footer a:hover {
+    color: hotpink;
+}
+footer a:active {
+    color: rgb(0, 255, 8);
+}

@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>TO DO</title>
     
 </head>
-<header>        
+
+
+<body>
+    <header>        
     <img class="logo" src="https://images.freeimages.com/clg/istock/previews/2649/26490793-finish-the-task.jpg" alt="">
     <nav>        
         <a class="item" href="index.html">HOME</a>
@@ -17,67 +20,81 @@
     </nav>
 
    
-</header>
-
-<body>
-    <div>
+    </header>
+    <section class="tittle">
     <h1>WHAT TO DO ?!</h1>
+    </section>
+    
     <table>
+        
         <tr>
             <th>TASKS</th>
             <th>STATUS</th>
         </tr>
         <tr>
-            <td>workout</td>
+            <td>WORKOUT</td>
             <td>
-                <label class="form__group">
-                    <input type="radio" name="radio" />
+                <div class="form__group">
+                <label for="WORKOUT">
+                    <input type="radio" id="FINISHED" name="WORKOUT" />
                     FINISHED
                 </label>
+                </div>
                 <br>
-                <label class="form__group">
-                    <input type="radio" name="radio" />
+                <div class="form__group">
+                <label for="WORKOUT">
+                    <input type="radio" id="UNFINISHED" name="WORKOUT" />
                     UNFINISHED
                 </label>
+                </div>
                 <br>
             </td>
         </tr>
         <tr>
             <td>BREAKFAST</td>
             <td>
-                <label class="form__group">
-                    <input type="radio" name="radio" />
-                    FINISHED
-                </label>
-                <br>
-                 <label class="form__group">
-                    <input type="radio" name="radio" />
-                    UNFINISHED
-                </label>
+                <div class="form__group">
+                    <label for="WORKOUT">
+                        <input type="radio" id="FINISHED" name="BREAKFAST" />
+                        FINISHED
+                    </label>
+                    </div>
+                    <br>
+                    <div class="form__group">
+                    <label for="WORKOUT">
+                        <input type="radio" id="UNFINISHED" name="BREAKFAST" />
+                        UNFINISHED
+                    </label>
+                    </div>
                 <br>
             </td>
         </tr>
         <tr>
             <td>STUDY</td>
             <td>
-                <label class="form__group">
-                    <input type="radio" name="radio" />
-                    FINISHED
-                </label>
-                <br>
-                 <label class="form__group">
-                    <input type="radio" name="radio" />
-                    UNFINISHED
-                </label>
+                <div class="form__group">
+                    <label for="WORKOUT">
+                        <input type="radio" id="FINISHED" name="STUDY" />
+                        FINISHED
+                    </label>
+                    </div>
+                    <br>
+                    <div class="form__group">
+                    <label for="WORKOUT">
+                        <input type="radio" id="UNFINISHED" name="STUDY" />
+                        UNFINISHED
+                    </label>
+                    </div>
             </td>
         </tr>
     </table>
-    </div>
-</body>
+    
+
 
 <footer>
     <h2>To Do Copyright &copy;</h2>
     <a href="about.html">ABOUT</a> 
 
 </footer>
+</body>
 </html>
