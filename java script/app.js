@@ -24,3 +24,19 @@ if(confirm("Do You Want To Skip The Welcoming Message ?!")){
     }
 }
 
+function question(question, answers) {
+    let user = prompt(question);
+    if (user === null || user === " ") {
+      answers.push("invalid");
+    } else {
+      answers.push(user);
+    }
+  }
+  
+let answers = [];
+  
+question("Do you love reading ? (NOTE: you must answer with Yes or No only)", answers);
+question("Do you go to Gym often ? (NOTE: you must answer with Yes or No only)", answers);
+question("Do you know how to cook ? (NOTE: you must answer with Yes or No only)", answers);
+
+console.log("Answers:", answers);
